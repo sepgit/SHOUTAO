@@ -1,0 +1,361 @@
+/*初始化*/
+body,
+p,
+div,
+h1,
+h2,
+h3,
+h4,
+ul,
+li,
+ol,
+li,
+table,
+dl,
+dd,
+dt,
+form,
+a,
+img,
+em,
+i,
+strong,
+b,
+label,
+input,
+select,
+option,
+textarea,
+section,
+header,
+footer,
+nav {
+  margin: 0;
+  padding: 0;
+}
+img {
+  border: 0 none;
+  vertical-align: top;
+}
+a {
+  text-decoration: none;
+}
+a:hover {
+  color: #0f0;
+}
+li {
+  list-style: none ;
+}
+body {
+  font-family: "微软雅黑";
+  font-size: 0.24rem;
+  color: #fffc00;
+  max-width: 640px;
+  min-width: 320px;
+  margin: 0 auto;
+  background: #001431;
+  padding-bottom: 0.27rem;
+}
+html {
+  font-size: 625%;
+}
+/*清浮动*/
+.clearfix {
+  *zoom: 1;
+}
+.clearfix:after {
+  height: 0;
+  font-size: 0;
+  display: block;
+  visibility: hidden;
+  clear: both;
+  content: ".";
+}
+.header {
+  width: 100%;
+  height: 2.6rem;
+}
+.header img {
+  width: 100%;
+}
+.tltle {
+  width: 100%;
+  height: 0.61rem;
+  background: url(../img/titlebg.png) no-repeat;
+  background-size: 100% auto;
+  text-align: center;
+  line-height: 0.61rem;
+  font-size: 0.3rem;
+}
+.tltle a {
+  color: #fffc00;
+}
+.contentA {
+  width: 6.16rem;
+  height: auto;
+  margin: 0.12rem;
+  padding: 0.12rem 0 0.16rem 0;
+  border: 0.02rem solid #00265c;
+  border-radius: 0.08rem;
+  box-shadow: 0 -3px 3px 3px #0f223f;
+}
+.content {
+  padding-bottom: 0.15rem;
+}
+.CAimg {
+  width: 1.73rem;
+  height: 2.47rem;
+  background: url(../img/CAimg.jpg) no-repeat;
+  border: 0.01rem solid #b9a92e;
+  float: left;
+  background-size: 100% auto;
+  margin-left: 0.12rem;
+}
+.CAimg a {
+  display: block;
+  width: 100%;
+  height: 100%;
+}
+.CAlist {
+  float: right;
+  width: 3.94rem;
+}
+.CAlist li {
+  width: 100%;
+  height: 0.48rem;
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  color: #bababa;
+}
+.CAlist li:nth-child(5) {
+  background: url(../img/li5bg.jpg) no-repeat;
+  width: 2.96rem;
+  height: 0.54rem;
+  margin: 0 auto;
+  line-height: 0.54rem;
+  text-align: center;
+}
+.CAlist li:nth-child(5) a {
+  display: block;
+  width: 2.96rem;
+  height: 0.54rem;
+  color: #fffc00;
+}
+.CAlist li:nth-child(4) span {
+  letter-spacing: 0;
+}
+.CAlist li:nth-child(4) span:after {
+  content: ":";
+  margin: 0 ;
+}
+.CAlist span {
+  letter-spacing: 2em;
+  color: #00a8ff;
+}
+.CAlist span:after {
+  content: ":";
+  margin: 0 -2em;
+}
+.comment {
+  width: 5.57rem;
+  height: 0.56rem;
+  margin: 0.04rem 0 0 0.14rem;
+  background: url(../img/comment-icon.jpg) no-repeat 0.02rem 0.18rem / 0.27rem 0.24rem;
+  line-height: 0.56rem;
+  padding-left: 0.33rem;
+  color: #00a8ff;
+  border-top: 0.01rem dashed #002f71;
+}
+.comment-list {
+  width: 6.06rem;
+  height: 0.87rem;
+}
+.comment-list li {
+  float: left;
+  margin: 0 0.08rem 0.11rem 0.14rem;
+  height: 0.38rem;
+  line-height: 0.38rem;
+  background: #0048b1;
+  padding: 0 0.06rem;
+}
+.comment-list li:nth-child(4),
+.comment-list li:nth-child(5),
+.comment-list li:nth-child(6) {
+  margin-right: -0.07rem;
+}
+.seckill {
+  width: 5.9rem;
+  margin: 0 auto;
+  text-align: center;
+}
+.Sktitle {
+  width: 100%;
+  height: 0.53rem;
+  border-top: 1px dashed #002f71;
+  margin-top: 0.18rem;
+  line-height: 0.53rem;
+}
+.SKicon {
+  width: 100%;
+  height: 0.56rem;
+  margin: 0 auto;
+}
+.SKicon li {
+  float: left;
+  background: url(../img/SK-icon.png) no-repeat;
+  height: 0.56rem;
+  line-height: 0.56rem;
+  width: 2.51rem;
+}
+.SKicon li:first-child {
+  margin: 0 0.08rem 0 0.4rem;
+}
+.contentBtitle {
+  width: 100%;
+  height: 0.78rem;
+  background: url(../img/titlebg.png) no-repeat 0 0.18rem;
+  background-size: 100% auto;
+  padding-top: 0.18rem;
+  line-height: 0.6rem;
+  font-size: 0.3rem;
+  text-align: center;
+}
+.contentB {
+  width: 6.16rem;
+  height: auto;
+  margin: 0.12rem;
+  padding: 0.12rem 0 0.16rem 0;
+  border: 0.02rem solid #00265c;
+  border-radius: 0.08rem;
+  box-shadow: 0 -3px 3px 3px #0f223f;
+}
+.CB {
+  padding-bottom: 0.15rem;
+}
+.CBimg {
+  width: 1.73rem;
+  height: 2.47rem;
+  background: url(../img/CBimg.jpg) no-repeat;
+  border: 0.01rem solid #b9a92e;
+  float: left;
+  background-size: 100% auto;
+  margin-left: 0.12rem;
+}
+.CBimg a {
+  display: block;
+  width: 100%;
+  height: 100%;
+}
+.CBlist {
+  float: right;
+  width: 3.94rem;
+}
+.CBlist li {
+  width: 100%;
+  height: 0.48rem;
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  color: #bababa;
+}
+.CBlist li:nth-child(5) {
+  background: url(../img/li5bg.jpg) no-repeat;
+  width: 2.96rem;
+  height: 0.54rem;
+  margin: 0 auto;
+  line-height: 0.54rem;
+  text-align: center;
+}
+.CBlist li:nth-child(5) a {
+  display: block;
+  width: 2.96rem;
+  height: 0.54rem;
+  color: #fffc00;
+}
+.CBlist li:nth-child(4) span {
+  letter-spacing: 0;
+}
+.CBlist li:nth-child(4) span:after {
+  content: ":";
+  margin: 0 ;
+}
+.CBlist span {
+  letter-spacing: 2em;
+  color: #00a8ff;
+}
+.CBlist span:after {
+  content: ":";
+  margin: 0 -2em;
+}
+.commentB-list {
+  width: 6.06rem;
+  height: 0.87rem;
+  padding-left: 0.14rem;
+}
+.commentB-list li {
+  float: left;
+  margin: 0 0.08rem 0.11rem 0;
+  height: 0.38rem;
+  line-height: 0.38rem;
+  background: #0048b1;
+  padding: 0 0.06rem;
+}
+.children-title {
+  width: 100%;
+  height: 0.78rem;
+  background: url(../img/titlebg.png) no-repeat 0 0.18rem;
+  background-size: 100% auto;
+  padding-top: 0.18rem;
+  line-height: 0.6rem;
+  font-size: 0.3rem;
+  text-align: center;
+}
+.reco-movie {
+  width: 6.12rem;
+  height: 1.94rem;
+  margin: 0.33rem 0 0 0.12rem;
+  border-bottom: 1px dashed #0048B1;
+}
+.reco-movie a {
+  display: block;
+  width: 100%;
+  height: 100%;
+}
+.RM-1img {
+  width: 1.18rem;
+  height: 1.68rem;
+  background: url(../img/CAimg.jpg) no-repeat;
+  border: 0.01rem solid #c3c074;
+  float: left;
+  background-size: 1.18rem 1.68rem;
+  margin-left: 0.12rem;
+}
+.RM-1img a {
+  display: block;
+  width: 100%;
+  height: 100%;
+}
+.RM-list {
+  width: 3.86rem;
+  height: 1.8rem;
+  float: left;
+  margin-left: 0.22rem;
+  color: #00A8FF;
+}
+.RM-list dt {
+  height: 0.36rem;
+  line-height: 0.36rem;
+  font-size: 0.3rem;
+}
+.RM-list dd {
+  height: 0.48rem;
+  line-height: 0.48rem;
+}
+.RM-icon {
+  float: right;
+  width: 0.36rem;
+  height: 0.38rem;
+  background: url(../img/recomovie-icon.jpg) no-repeat;
+  margin-top: 0.57rem;
+}
